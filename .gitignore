@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local data buckets
+data/raw/
+
+# Image files (allow lightweight fixtures under tests/data)
+*.png
+*.jpg
+!tests/data/*.png
+!tests/data/*.jpg
+
+# Depth files
+*.npy
+*.npz
+*.raw
+!tests/data/*.npy
+
+# Calibration files
+*.yaml
+*.yml
+*.json
+!tests/data/*.yaml
+
+# Logs and reports
+Log/
+*.html
+*.whl
