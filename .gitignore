@@ -27,7 +27,6 @@ data/raw/
 # Calibration files
 *.yaml
 *.yml
-*.json
 !tests/data/*.yaml
 
 # Logs and reports
